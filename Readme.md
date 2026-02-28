@@ -32,6 +32,13 @@ All models were evaluated against an unseen test dataset. The results are as fol
 * The **Custom CNN** performed exceptionally well, proving that a well-designed architecture with proper augmentation can rival heavier, pre-trained networks.
 * Models like ResNet50 and EfficientNetB0 struggled under the constrained, fast-training parameters (frozen base layers, 3 epochs), indicating they would require extensive fine-tuning and unfreezing of deeper layers to converge properly on this dataset.
 
+## 📥 Model Download Instructions
+Due to GitHub's file size limits (the model is ~254 MB), the trained `fish_classifier_97.h5` file is hosted externally on Google Drive.
+
+1. **Download the model here:** [https://drive.google.com/file/d/1b4_exer1aiLmxb3nhm_0jSC56IYSRnrj/view?usp=sharing]
+2. Place the downloaded `fish_classifier_97.h5` file directly into the root directory of this project (in the same folder as `app.py`).
+3. You can then run the Streamlit application normally.
+
 ## 💻 How to Run the Application Locally
 1. Clone this repository to your local machine.
 2. Ensure you have the required libraries installed:
